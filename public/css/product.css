@@ -20,6 +20,10 @@
     margin-bottom: 0.5rem;
 }
 
+.product__price::before {
+    content: "$";
+}
+
 .product__description {
     text-align: center;
 }
